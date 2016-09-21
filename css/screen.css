@@ -1,0 +1,20 @@
+html {
+  background-color: #323232;
+  color: white;
+  font-family: serif;
+}
+h1 {
+  font-size: 19px;
+}
+
+.header{
+  color: white;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: #A3BBAD
+}
