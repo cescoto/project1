@@ -3,8 +3,14 @@ html {
   color: white;
   font-family: serif;
 }
-h1 {
-  font-size: 19px;
+
+title {
+  text-align: center;
+}
+
+img, video {
+  display: block;
+  max-width: 100%;
 }
 
 .header{
@@ -12,9 +18,28 @@ h1 {
 }
 
 a:link {
-  color: gray;
+  color: #A3BBAD;
 }
 
 a:visited {
-  color: #A3BBAD
+  color: gray;
+}
+
+.nav {
+  font-family: sans-serif;
+}
+
+.nav ul {
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  padding: 1em
+}
+
+.nav a{
+  text-decoration: none;
 }
