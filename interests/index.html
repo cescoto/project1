@@ -3,16 +3,50 @@
   <head>
     <title>Cesar Escoto</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="/css/screen.css" />
   </head>
   <body>
     <header>
-      <h1>Cesar's Interests</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/resume"> Resume</a></li>
+          <li><a href="https://github.com/cescoto">My Github</a></li>
+        </ul>
+      </nav>
+      <h1>Cesar's Hobby</h1>
     </header>
-    <p> My interests are the following.</p>
-      <ul>
-        <li><a href="https://what.cd">Listening to Music</a></li>
-        <li><a href="http://store.steampowered.com/">Videogames</a></li>
-        <li><a href="http://arstechnica.com/">Technology</a></li>
-      </ul>
+    <p> My hobby is listening, playing and collecting music.</p>
+      <article>
+        <h2> Super Audio CD </h2>
+      <figure class="photo">
+        <img src="/media/images/sacd.png"
+          alt="Super Audio Compact Disc Logo" />
+          <figcaption>
+            <p>
+              Super Audio CD Logo
+            </p>
+        </figcaption>
+      </figure>
+    </article>
+    <article>
+      <h2> Music I like. </h2>
+      <p>
+        Way too many to list but I do like giving different genres a try.
+        For example I listen to Neutral Milk Hotel:
+      </p>
+      <figure class ="audio">
+        <audio controls="controls">
+          <source src="/media/sounds/neutral_milk_hotel.mp3" type="audio/mpeg">
+        </audio>
+      </figure>
+        But my favorite genre is metal. Which is why I love this edited video:
+        <figure class="video">
+          <video controls="controls">
+            <source src="/media/videos/victory_screech.mp4" type="video/mp4">
+          </video>
+        </figure>
+    </article>
     </body>
 </html>
